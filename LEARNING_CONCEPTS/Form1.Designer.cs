@@ -31,6 +31,8 @@
 			this.button1 = new System.Windows.Forms.Button();
 			this.button2 = new System.Windows.Forms.Button();
 			this.button3 = new System.Windows.Forms.Button();
+			this.exitButton = new System.Windows.Forms.Button();
+			this.myTextBox = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
 			// button1
@@ -63,11 +65,31 @@
 			this.button3.UseVisualStyleBackColor = true;
 			this.button3.Click += new System.EventHandler(this.button3_Click);
 			// 
+			// exitButton
+			// 
+			this.exitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.exitButton.Location = new System.Drawing.Point(217, 12);
+			this.exitButton.Name = "exitButton";
+			this.exitButton.Size = new System.Drawing.Size(75, 23);
+			this.exitButton.TabIndex = 3;
+			this.exitButton.Text = "E&xit";
+			this.exitButton.UseVisualStyleBackColor = true;
+			this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+			// 
+			// myTextBox
+			// 
+			this.myTextBox.Location = new System.Drawing.Point(12, 99);
+			this.myTextBox.Name = "myTextBox";
+			this.myTextBox.Size = new System.Drawing.Size(100, 20);
+			this.myTextBox.TabIndex = 4;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.ClientSize = new System.Drawing.Size(304, 134);
+			this.Controls.Add(this.myTextBox);
+			this.Controls.Add(this.exitButton);
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
@@ -75,6 +97,7 @@
 			this.Text = "Form1";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 
@@ -83,6 +106,8 @@
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button3;
+		private System.Windows.Forms.Button exitButton;
+		public System.Windows.Forms.TextBox myTextBox;
 	}
 }
 

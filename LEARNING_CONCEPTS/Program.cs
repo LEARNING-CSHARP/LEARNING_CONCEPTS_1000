@@ -1,22 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace LEARNING_CONCEPTS
+﻿namespace LEARNING_CONCEPTS
 {
 	static class Program
 	{
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
-		[STAThread]
+		[System.STAThread]
 		static void Main()
 		{
-			Application.EnableVisualStyles();
-			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Form1());
+			System.Windows.Forms.Application.EnableVisualStyles();
+			System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+
+			// **************************************************
+			Form1 startupForm = new Form1();
+			//Form2 startupForm = new Form2();
+
+			System.Windows.Forms.Application.Run(startupForm);
+
+			if (startupForm != null)
+			{
+				if (startupForm.IsDisposed == false)
+				{
+					startupForm.Dispose();
+				}
+
+				startupForm = null;
+			}
+			// **************************************************
 		}
 	}
 }

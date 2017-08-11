@@ -1,4 +1,15 @@
-﻿namespace Dtx.Windows.Forms
+﻿namespace System.Windows.Forms
+{
+	public static class DtxMessageBox
+	{
+		public static System.Windows.Forms.DialogResult Show(string text)
+		{
+			return (System.Windows.Forms.DialogResult.OK);
+		}
+	}
+}
+
+namespace Dtx.Windows.Forms
 {
 	public static class MessageBox
 	{
