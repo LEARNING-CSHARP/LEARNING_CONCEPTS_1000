@@ -2,11 +2,17 @@
 {
 	static class Program
 	{
+		static Program()
+		{
+		}
+
 		[System.STAThread]
 		static void Main()
 		{
+			// **************************************************
 			System.Windows.Forms.Application.EnableVisualStyles();
 			System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+			// **************************************************
 
 			// **************************************************
 			Form1 startupForm = new Form1();

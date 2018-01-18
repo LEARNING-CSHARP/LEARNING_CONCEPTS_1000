@@ -11,7 +11,6 @@
 
 		private void Form2_Load(object sender, System.EventArgs e)
 		{
-
 		}
 
 		private void button1_Click(object sender, System.EventArgs e)

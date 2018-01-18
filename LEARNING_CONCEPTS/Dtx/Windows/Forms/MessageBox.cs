@@ -1,5 +1,8 @@
 ﻿namespace System.Windows.Forms
 {
+	/// <summary>
+	/// استاندارد شماره یک
+	/// </summary>
 	public static class DtxMessageBox
 	{
 		public static System.Windows.Forms.DialogResult Show(string text)
@@ -11,15 +14,22 @@
 
 namespace Dtx.Windows.Forms
 {
+	/// <summary>
+	/// استاندارد شماره دو
+	/// این استاندارد حرفه‌ای تر است
+	/// </summary>
 	public static class MessageBox
 	{
 		public static System.Windows.Forms.DialogResult Show(string text)
 		{
-			MessageBoxForm frm = new MessageBoxForm();
+			MessageBoxForm form = new MessageBoxForm();
 
-			frm.Message = text;
+			// راه‌حل ذیل حرفه‌ای نیست
+			//form.textLabel.Text = text;
 
-			frm.ShowDialog();
+			form.Message = text;
+
+			form.ShowDialog();
 
 			return (System.Windows.Forms.DialogResult.OK);
 		}

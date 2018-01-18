@@ -2,21 +2,15 @@
 {
 	partial class MessageBoxForm
 	{
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
 		private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
 		protected override void Dispose(bool disposing)
 		{
 			if (disposing && (components != null))
 			{
 				components.Dispose();
 			}
+
 			base.Dispose(disposing);
 		}
 
@@ -39,9 +33,9 @@
 			this.textLabel.ForeColor = System.Drawing.Color.White;
 			this.textLabel.Location = new System.Drawing.Point(12, 9);
 			this.textLabel.Name = "textLabel";
-			this.textLabel.Size = new System.Drawing.Size(35, 13);
+			this.textLabel.Size = new System.Drawing.Size(95, 13);
 			this.textLabel.TabIndex = 0;
-			this.textLabel.Text = "label1";
+			this.textLabel.Text = "Message Box Text";
 			// 
 			// OkButton
 			// 

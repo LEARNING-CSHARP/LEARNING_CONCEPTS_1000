@@ -9,22 +9,22 @@
 
 		private void button1_Click(object sender, System.EventArgs e)
 		{
-			Form2 frm = new Form2();
+			Form2 form = new Form2();
 
-			frm.MyForm1 = this;
+			form.MyForm1 = this;
 
-			frm.Show();
+			form.Show();
 
 			int intTemp = 1;
 		}
 
 		private void button2_Click(object sender, System.EventArgs e)
 		{
-			Form2 frm = new Form2();
+			Form2 form = new Form2();
 
-			frm.MyForm1 = this;
+			form.MyForm1 = this;
 
-			frm.ShowDialog();
+			form.ShowDialog();
 
 			int intTemp = 1;
 		}
