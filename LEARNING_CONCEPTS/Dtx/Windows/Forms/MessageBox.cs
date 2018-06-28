@@ -1,18 +1,4 @@
-﻿namespace System.Windows.Forms
-{
-	/// <summary>
-	/// استاندارد شماره یک
-	/// </summary>
-	public static class DtxMessageBox
-	{
-		public static System.Windows.Forms.DialogResult Show(string text)
-		{
-			return (System.Windows.Forms.DialogResult.OK);
-		}
-	}
-}
-
-namespace Dtx.Windows.Forms
+﻿namespace Dtx.Windows.Forms
 {
 	/// <summary>
 	/// استاندارد شماره دو
@@ -22,6 +8,10 @@ namespace Dtx.Windows.Forms
 	{
 		public static System.Windows.Forms.DialogResult Show(string text)
 		{
+			// اگر وقت ندارید که در شروع کار فرم مناسب را ایجاد کنید
+			//return (System.Windows.Forms.MessageBox.Show(text: text));
+
+			// بعد از اینکه فرم مناسب تولید شد
 			MessageBoxForm form = new MessageBoxForm();
 
 			// راه‌حل ذیل حرفه‌ای نیست

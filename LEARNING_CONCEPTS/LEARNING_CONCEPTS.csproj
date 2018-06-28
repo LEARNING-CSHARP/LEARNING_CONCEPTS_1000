@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DtxMessageBox.cs" />
     <Compile Include="Dtx\Windows\Forms\MessageBox.cs" />
     <Compile Include="Dtx\Windows\Forms\MessageBoxForm.cs">
       <SubType>Form</SubType>
