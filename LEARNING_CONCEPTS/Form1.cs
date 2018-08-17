@@ -7,6 +7,10 @@
 			InitializeComponent();
 		}
 
+		private void Form1_Load(object sender, System.EventArgs e)
+		{
+		}
+
 		private void button1_Click(object sender, System.EventArgs e)
 		{
 			Form2 form = new Form2();
@@ -15,7 +19,7 @@
 
 			form.Show();
 
-			int intTemp = 1;
+			int temp = 1;
 		}
 
 		private void button2_Click(object sender, System.EventArgs e)
@@ -26,11 +30,7 @@
 
 			form.ShowDialog();
 
-			int intTemp = 1;
-		}
-
-		private void Form1_Load(object sender, System.EventArgs e)
-		{
+			int temp = 1;
 		}
 
 		private void button3_Click(object sender, System.EventArgs e)

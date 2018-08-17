@@ -1,13 +1,13 @@
 ﻿namespace LEARNING_CONCEPTS
 {
-	static class Program
+	internal static class Program
 	{
 		static Program()
 		{
 		}
 
 		[System.STAThread]
-		static void Main()
+		internal static void Main()
 		{
 			// **************************************************
 			System.Windows.Forms.Application.EnableVisualStyles();
@@ -15,7 +15,7 @@
 			// **************************************************
 
 			// **************************************************
-			Dtx.Windows.Forms.MessageBox.Show(text: "Hello, World!");
+			//Dtx.Windows.Forms.MessageBox.Show(text: "Hello, World!");
 			// **************************************************
 
 			// **************************************************
