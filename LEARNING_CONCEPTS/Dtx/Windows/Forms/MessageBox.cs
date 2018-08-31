@@ -6,6 +6,10 @@
 	/// </summary>
 	public static class MessageBox
 	{
+		static MessageBox()
+		{
+		}
+
 		public static System.Windows.Forms.DialogResult Show(string text)
 		{
 			// اگر وقت ندارید که در شروع کار فرم مناسب را ایجاد کنید

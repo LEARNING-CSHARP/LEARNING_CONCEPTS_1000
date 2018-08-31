@@ -64,7 +64,7 @@
 
 			//System.Windows.Forms.Application.Exit();
 
-			System.Windows.Forms.DialogResult enmResult =
+			System.Windows.Forms.DialogResult result =
 				System.Windows.Forms.MessageBox.Show
 				(text: "آیا به خروج از برنامه اطمینان دارید؟",
 				caption: "سوال",
@@ -74,7 +74,7 @@
 				options: System.Windows.Forms.MessageBoxOptions.RightAlign |
 				System.Windows.Forms.MessageBoxOptions.RtlReading);
 
-			if (enmResult == System.Windows.Forms.DialogResult.Yes)
+			if (result == System.Windows.Forms.DialogResult.Yes)
 			{
 				System.Windows.Forms.Application.Exit();
 			}
