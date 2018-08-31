@@ -15,8 +15,6 @@
 		{
 			Form2 form = new Form2();
 
-			form.MyForm1 = this;
-
 			form.Show();
 
 			int temp = 1;
@@ -26,12 +24,32 @@
 		{
 			Form2 form = new Form2();
 
-			form.MyForm1 = this;
-
 			form.ShowDialog();
 
 			int temp = 1;
 		}
+
+		//private void button1_Click(object sender, System.EventArgs e)
+		//{
+		//	Form2 form = new Form2();
+
+		//	form.MyForm1 = this;
+
+		//	form.Show();
+
+		//	int temp = 1;
+		//}
+
+		//private void button2_Click(object sender, System.EventArgs e)
+		//{
+		//	Form2 form = new Form2();
+
+		//	form.MyForm1 = this;
+
+		//	form.ShowDialog();
+
+		//	int temp = 1;
+		//}
 
 		private void button3_Click(object sender, System.EventArgs e)
 		{
