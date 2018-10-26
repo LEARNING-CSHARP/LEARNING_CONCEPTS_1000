@@ -13,7 +13,7 @@
 		public static System.Windows.Forms.DialogResult Show(string text)
 		{
 			// اگر وقت ندارید که در شروع کار فرم مناسب را ایجاد کنید
-			//return (System.Windows.Forms.MessageBox.Show(text: text));
+			//return System.Windows.Forms.MessageBox.Show(text: text);
 
 			// بعد از اینکه فرم مناسب تولید شد
 			MessageBoxForm form = new MessageBoxForm();

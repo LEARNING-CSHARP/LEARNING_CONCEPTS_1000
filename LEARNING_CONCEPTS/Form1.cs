@@ -11,7 +11,7 @@
 		{
 		}
 
-		private void button1_Click(object sender, System.EventArgs e)
+		private void Button1_Click(object sender, System.EventArgs e)
 		{
 			Form2 form = new Form2();
 
@@ -20,7 +20,7 @@
 			int temp = 1;
 		}
 
-		private void button2_Click(object sender, System.EventArgs e)
+		private void Button2_Click(object sender, System.EventArgs e)
 		{
 			Form2 form = new Form2();
 
@@ -29,7 +29,7 @@
 			int temp = 1;
 		}
 
-		//private void button1_Click(object sender, System.EventArgs e)
+		//private void Button1_Click(object sender, System.EventArgs e)
 		//{
 		//	Form2 form = new Form2();
 
@@ -40,7 +40,7 @@
 		//	int temp = 1;
 		//}
 
-		//private void button2_Click(object sender, System.EventArgs e)
+		//private void Button2_Click(object sender, System.EventArgs e)
 		//{
 		//	Form2 form = new Form2();
 
@@ -51,14 +51,14 @@
 		//	int temp = 1;
 		//}
 
-		private void button3_Click(object sender, System.EventArgs e)
+		private void Button3_Click(object sender, System.EventArgs e)
 		{
 			//System.Windows.Forms.DtxMessageBox.Show("Hello, World!");
 
 			Dtx.Windows.Forms.MessageBox.Show(text: "Hello, World!");
 		}
 
-		private void exitButton_Click(object sender, System.EventArgs e)
+		private void ExitButton_Click(object sender, System.EventArgs e)
 		{
 			//Close();
 
