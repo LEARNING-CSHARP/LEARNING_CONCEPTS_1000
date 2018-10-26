@@ -9,6 +9,9 @@
 
 		public Form1 MyForm1 { get; set; }
 
+		//OR
+		//public Form1 MyForm1;
+
 		private void Form2_Load(object sender, System.EventArgs e)
 		{
 		}
@@ -16,6 +19,9 @@
 		private void button1_Click(object sender, System.EventArgs e)
 		{
 			MyForm1.myTextBox.Text = "Hello, World!";
+
+			//OR
+			//this.MyForm1.myTextBox.Text = "Hello, World!";
 		}
 	}
 }

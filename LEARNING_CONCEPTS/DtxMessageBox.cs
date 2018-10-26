@@ -5,9 +5,9 @@
 	/// </summary>
 	public static class DtxMessageBox
 	{
-		public static System.Windows.Forms.DialogResult Show(string text)
+		public static DialogResult Show(string text)
 		{
-			return (System.Windows.Forms.DialogResult.OK);
+			return DialogResult.OK;
 		}
 	}
 }

@@ -25,7 +25,7 @@
 
 			form.ShowDialog();
 
-			return (System.Windows.Forms.DialogResult.OK);
+			return System.Windows.Forms.DialogResult.OK;
 		}
 	}
 }
