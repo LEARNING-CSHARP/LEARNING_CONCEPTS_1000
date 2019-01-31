@@ -53,9 +53,16 @@
 
 		private void Button3_Click(object sender, System.EventArgs e)
 		{
-			//System.Windows.Forms.DtxMessageBox.Show("Hello, World!");
+			//System.Windows.Forms.DtxMessageBox.Show(text: "سلام دنیا!");
 
-			Dtx.Windows.Forms.MessageBox.Show(text: "Hello, World!");
+			Dtx.Windows.Forms.MessageBox.Show(text: "سلام دنیا!");
+		}
+
+		private void button4_Click(object sender, System.EventArgs e)
+		{
+			//System.Windows.Forms.MessageBox.Show(text: "سلام دنیا!", caption: "عنوان فرم");
+
+			Dtx.Windows.Forms.MessageBox.Show(text: "سلام دنیا!", caption: "عنوان فرم");
 		}
 
 		private void ExitButton_Click(object sender, System.EventArgs e)

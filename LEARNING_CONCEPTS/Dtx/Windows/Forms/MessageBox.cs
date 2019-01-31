@@ -2,7 +2,7 @@
 {
 	/// <summary>
 	/// استاندارد شماره دو
-	/// این استاندارد حرفه‌ای تر است
+	/// این استاندارد حرفه‌ای‌تر است
 	/// </summary>
 	public static class MessageBox
 	{
@@ -21,6 +21,18 @@
 			// راه‌حل ذیل حرفه‌ای نیست
 			//form.textLabel.Text = text;
 
+			form.Message = text;
+
+			form.ShowDialog();
+
+			return System.Windows.Forms.DialogResult.OK;
+		}
+
+		public static System.Windows.Forms.DialogResult Show(string text, string caption)
+		{
+			MessageBoxForm form = new MessageBoxForm();
+
+			form.Text = caption;
 			form.Message = text;
 
 			form.ShowDialog();

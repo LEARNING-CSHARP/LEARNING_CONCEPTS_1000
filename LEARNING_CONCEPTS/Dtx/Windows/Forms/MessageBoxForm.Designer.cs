@@ -28,12 +28,11 @@
 			// 
 			// textLabel
 			// 
-			this.textLabel.AutoSize = true;
 			this.textLabel.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.textLabel.ForeColor = System.Drawing.Color.White;
 			this.textLabel.Location = new System.Drawing.Point(12, 9);
 			this.textLabel.Name = "textLabel";
-			this.textLabel.Size = new System.Drawing.Size(95, 13);
+			this.textLabel.Size = new System.Drawing.Size(307, 85);
 			this.textLabel.TabIndex = 0;
 			this.textLabel.Text = "Message Box Text";
 			// 
@@ -57,14 +56,16 @@
 			this.ControlBox = false;
 			this.Controls.Add(this.OkButton);
 			this.Controls.Add(this.textLabel);
+			this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "MessageBoxForm";
+			this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.RightToLeftLayout = true;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Caption";
+			this.Text = "توضیح";
 			this.Load += new System.EventHandler(this.MessageBoxForm_Load);
 			this.ResumeLayout(false);
-			this.PerformLayout();
 
 		}
 
