@@ -115,7 +115,12 @@
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button exitButton;
 
-		public System.Windows.Forms.TextBox myTextBox;
 		private System.Windows.Forms.Button button4;
+
+		/// <summary>
+		/// Step (3)
+		/// </summary>
+		public System.Windows.Forms.TextBox myTextBox;
+		//private System.Windows.Forms.TextBox myTextBox;
 	}
 }

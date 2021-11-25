@@ -11,29 +11,9 @@
 		{
 		}
 
-		private void Button1_Click(object sender, System.EventArgs e)
-		{
-			Form2 form = new Form2();
-
-			form.Show();
-
-			int temp = 1;
-		}
-
-		private void Button2_Click(object sender, System.EventArgs e)
-		{
-			Form2 form = new Form2();
-
-			form.ShowDialog();
-
-			int temp = 1;
-		}
-
 		//private void Button1_Click(object sender, System.EventArgs e)
 		//{
 		//	Form2 form = new Form2();
-
-		//	form.MyForm1 = this;
 
 		//	form.Show();
 
@@ -44,12 +24,30 @@
 		//{
 		//	Form2 form = new Form2();
 
-		//	form.MyForm1 = this;
-
 		//	form.ShowDialog();
 
 		//	int temp = 1;
 		//}
+
+		private void Button1_Click(object sender, System.EventArgs e)
+		{
+			Form2 form = new Form2();
+
+			// Step (2)
+			form.MyForm1 = this;
+
+			form.Show();
+		}
+
+		private void Button2_Click(object sender, System.EventArgs e)
+		{
+			Form2 form = new Form2();
+
+			// Step (2)
+			form.MyForm1 = this;
+
+			form.ShowDialog();
+		}
 
 		private void Button3_Click(object sender, System.EventArgs e)
 		{
